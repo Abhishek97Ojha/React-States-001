@@ -17,9 +17,16 @@
     border-radius: 5px;
 }
 .top button:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .top button:active{
     transform: translateY(1px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media only screen and (max-width: 430px){
+    .top{
+        /* border: 2px solid black; */
+        padding:0;
+        width: 350px;
+    }
 }
