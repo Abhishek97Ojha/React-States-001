@@ -1,0 +1,14 @@
+.content{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+.content p{
+    font-size: 0.75rem;
+    margin-top: 7px;
+}

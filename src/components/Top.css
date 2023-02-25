@@ -1,0 +1,25 @@
+.top{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 15vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.top button{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.top button:hover{
+    transform: scale(1.05);
+}
+.top button:active{
+    transform: translateY(1px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
